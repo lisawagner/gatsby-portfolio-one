@@ -18,7 +18,7 @@
     npm init gatsby
     ```
     
-    - Separate out HTML into Reacct/JSX Components
+    - Separate out HTML into React/JSX Components
     - Refactor CSS into CSS Modules
 
 2.  **Convert Original Site to Gatsby.**
