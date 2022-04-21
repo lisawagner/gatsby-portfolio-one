@@ -10,7 +10,6 @@ import Contact from "../components/Contact"
 const index = () => {
   return (
     <Layout>
-      <div>Index Page Contents:</div>
       <About />
       <Skills />
       <Portfolio />

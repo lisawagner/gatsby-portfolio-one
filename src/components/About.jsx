@@ -1,41 +1,26 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { FaCodepen, FaGithub, FaLinkedinIn  } from 'react-icons/fa'
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 const About = () => {
   return (
     <section className='resume-section' id='about' >
-        <Link to='/'>About</Link>
-        <div class="section-container">
-        <div class="content">
-            <h1>Lisa <span class="text-fancy">Wagner</span></h1>
-            <div class="subheading mb-3">I'm a <span class="typed" typed-strings="Lifelong Learner, Software Developer, Solutions Creator" ></span></div>
-            <p class="mb-3">I'm a creative coder who enjoys making amazing things with web technologies. I develop modern Web Apps and UI/UX components using React.JS, Node.JS, Redux, Gatsby, and the MERN Stack</p>
+        <div className="section-container">
+        <div className="content">
+            <h1>Lisa <span className="text-fancy">Wagner</span></h1>
+            <div className="subheading mb-3">I'm a <span className="typed" typed-strings="Lifelong Learner, Software Developer, Solutions Creator" ></span></div>
+            <p className="mb-3">I'm a creative coder who enjoys making amazing things with web technologies. I develop modern Web Apps and UI/UX components using React.JS, Node.JS, Redux, Gatsby, and the MERN Stack</p>
           </div>
 
-          <ul class="social">
-            <li class="social-item">
-              <a href="#" target="_blank">
-                {/* <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
-                </span> */}
-              </a>
+          <ul className="social">
+            <li>
+              <a href="#" target="_blank" className="social-item"><FaGithub></FaGithub></a> 
             </li>
-            <li class="social-item">
-              <a href="#" target="_blank">
-                {/* <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa-brands fa-codepen fa-stack-1x fa-inverse"></i>
-                </span> */}
-              </a>
+            <li>
+            <a href="#" target="_blank" className="social-item"><FaCodepen></FaCodepen></a>
             </li>
-            <li class="social-item">
-              <a href="#" target="_blank">
-                {/* <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
-                </span> */}
-              </a>
+            <li>
+              <a href="#" target="_blank" className="social-item"><FaLinkedinIn></FaLinkedinIn></a>
             </li>
           </ul>
   

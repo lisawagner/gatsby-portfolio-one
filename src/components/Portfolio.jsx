@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <section className='resume-section'>Portfolio</section>
+    <section className='resume-section' id='portfolio'>Portfolio</section>
   )
 }
 
