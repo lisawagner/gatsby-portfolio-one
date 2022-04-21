@@ -17,6 +17,9 @@
     # create a new Gatsby site using the minimal starter
     npm init gatsby
     ```
+    
+    - Separate out HTML into Reacct/JSX Components
+    - Refactor CSS into CSS Modules
 
 2.  **Convert Original Site to Gatsby.**
 
