@@ -175,7 +175,7 @@ h3 {
 }
 
 .social-item {
-aspect-ratio: 1;
+    aspect-ratio: 1;
     display: grid;
     place-items: center;
     background: var(--dark-grey);
