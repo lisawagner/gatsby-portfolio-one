@@ -193,6 +193,10 @@ aspect-ratio: 1;
 }
 
 /* Skills Section */
+.iconify {
+    width: 20%;
+}
+
 .skills-grid {
     display: flex;
     /* flex-wrap: wrap; */

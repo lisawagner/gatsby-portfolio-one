@@ -1,4 +1,5 @@
 import React from 'react'
+
 import About from '../components/About'
 import Layout from "../components/Layout"
 import Skills from "../components/Skills"
@@ -15,7 +16,6 @@ const index = () => {
       <Portfolio />
       <Contact />
     </Layout>
-    
   )
 }
 

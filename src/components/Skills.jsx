@@ -1,4 +1,7 @@
 import React from 'react'
+// import { Skillicons } from '../constants'
+// import { Skillicons } from '../constants/Skillicons'
+import jsIcon from '../assets/icons/javascript-plain.svg'
 
 const Skills = () => {
   return (
@@ -9,7 +12,12 @@ const Skills = () => {
       <div className="subheading mb-1">Current Tools and Technologies</div>
       <div className="skills-grid grid-gutters grid-full">
         <div className="skills-cell">
-          <div className="skills-icon"><i className="devicon-javascript-plain colored"></i></div>
+          <div className="skills-icon">
+          <img className="iconify" src={jsIcon} alt="Javascript Logo"/>
+            {/* <img src={Skillicons.JavaScript} alt='Javascript Logo' /> */}
+            <i className="devicon-javascript-plain colored"></i>
+
+            </div>
           <div className="skills-title">Javascript</div>
           <div className="skills-desc">For small-scale apps, I use plain JS to modify app behaviours and responses to user actions instead of huge libraries. Clean and clear code.
           </div>
