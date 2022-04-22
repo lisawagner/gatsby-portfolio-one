@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCodepen, FaGithub, FaLinkedinIn  } from 'react-icons/fa'
 
-import typewriter, { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 const About = () => {
   return (
@@ -11,15 +11,15 @@ const About = () => {
             <h1>Lisa <span className="text-fancy">Wagner</span></h1>
             {/* <div className="subheading mb-3">I'm a <span className="typed" typed-strings="Lifelong Learner, Software Developer, Solutions Creator" ></span></div> */}
             <div className="subheading mb-3">I'm a{' '} 
-              <span className="typed" typed-strings="Lifelong Learner, Software Developer, Solutions Creator">
+              <span className="typed">
                 <Typewriter 
                   loop
                   cursor
-                  cursorStyle='_'
+                  cursorStyle={'|'}
                   typeSpeed={90}            
                   deleteSpeed={80}
                   delaySpeed={3000}
-                  words={['Lifelong Learner', 'Frontend Developer', 'Solutions Creator']}
+                  words={['Lifelong Learner...', 'Frontend Developer...', 'Solutions Creator...']}
                 />
               </span>
             </div>

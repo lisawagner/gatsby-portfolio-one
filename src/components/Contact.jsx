@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Contact = () => {
   return (
@@ -9,7 +10,19 @@ const Contact = () => {
 
   <div className="contact-right">
     <div className="contact-col form-wrapper">
-      <div className="subheading"><span className="special-typed"></span></div>
+      <div className="subheading">
+        <span className="special-typed">
+          <Typewriter 
+            loop
+            cursor
+            cursorStyle={'|'}
+            typeSpeed={90}            
+            deleteSpeed={80}
+            delaySpeed={3000}
+            words={["Nice to meet you!", "Let's build something amazing!"]}
+            />
+        </span>
+      </div>
 
       <p>Have a question or just want to get in touch? Let's chat.</p>
       <form action="" method="POST">
@@ -29,8 +42,7 @@ const Contact = () => {
         </div> 
 
         <div className="form-group">
-            send
-          {/* <button type="submit" className="submit">Send</i></button> */}
+          <button type="submit" className="submit">Send</button>
         </div> 
       </form>
     </div>
