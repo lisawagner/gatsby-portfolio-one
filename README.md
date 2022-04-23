@@ -23,12 +23,7 @@
 
 2.  **Convert Original Site to Gatsby.**
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+    You can view the first iteration code [here](https://github.com/lisawagner/NavfolioTwo).
 
 3.  **Refactor Code to Work with Strapi CMS**
 
