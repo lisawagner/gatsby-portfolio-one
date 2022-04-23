@@ -25,7 +25,7 @@ const Portfolio = () => {
             </div>
             <div className="card-info">
               <h3>The Movie DB</h3>
-              <p>A web app for looking up details on your favourite movies.</p>
+              <p>A web app for looking up details on your favourite movies. External API calls, React Router use.</p>
               <div className="card-links">
                 <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
                   <BsCodeSlash />
@@ -39,7 +39,6 @@ const Portfolio = () => {
             <div className="card-tags">
               <p>React</p>
               <p>TypeScript</p>
-              <p>React Router</p>
             </div>
           </article>
         {/* end single card */}
@@ -52,7 +51,7 @@ const Portfolio = () => {
             </div>
             <div className="card-info">
               <h3>The Movie DB</h3>
-              <p>A web app for looking up details on your favourite movies.</p>
+              <p>A web app for looking up details on your favourite movies. External API calls, React Router use.</p>
               <div className="card-links">
                 <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
                   <BsCodeSlash />
@@ -66,7 +65,6 @@ const Portfolio = () => {
             <div className="card-tags">
               <p>React</p>
               <p>TypeScript</p>
-              <p>React Router</p>
             </div>
           </article>
         {/* end single card */}
@@ -79,7 +77,7 @@ const Portfolio = () => {
             </div>
             <div className="card-info">
               <h3>The Movie DB</h3>
-              <p>A web app for looking up details on your favourite movies.</p>
+              <p>A web app for looking up details on your favourite movies and to see who the key actors are.</p>
               <div className="card-links">
                 <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
                   <BsCodeSlash />
@@ -93,7 +91,6 @@ const Portfolio = () => {
             <div className="card-tags">
               <p>React</p>
               <p>TypeScript</p>
-              <p>React Router</p>
             </div>
           </article>
         {/* end single card */}
