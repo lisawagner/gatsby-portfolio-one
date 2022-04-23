@@ -21,6 +21,9 @@ import unity from '../assets/icons/unity-original.svg';
 import wpOrigin from '../assets/icons/wordpress-original.svg';
 import wpPlain from '../assets/icons/wordpress-plain.svg';
 
+// up-right-from-square-solid.svg
+import gotoArrow from '../assets/icons/up-right-from-square-solid.svg';
+
 export default {
     javascript,
     codepen,
@@ -44,4 +47,5 @@ export default {
     wpOrigin,
     wpPlain,
     graphql,
+    gotoArrow,
 };
