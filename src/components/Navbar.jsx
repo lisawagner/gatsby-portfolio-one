@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import logo from '../assets/img/logo.png'
 import { GiHamburgerMenu } from "react-icons/Gi"
 
-const Navbar = () => {
+const Navbar = ( {toggleSidebar} ) => {
   return (
     <header id="headerMain">
 
@@ -11,7 +11,7 @@ const Navbar = () => {
       <img className="profile-img" src={logo} alt=""/>
       <h3>Lisa Wagner</h3>
     </div>
-    <button id="toggle-btn"><GiHamburgerMenu></GiHamburgerMenu></button>
+    <button type="button" id="toggle-btn" onClick={toggleSidebar}><GiHamburgerMenu></GiHamburgerMenu></button>
 
     <nav className="navbar">
       <ul>
