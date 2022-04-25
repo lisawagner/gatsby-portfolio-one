@@ -27,10 +27,10 @@ const Portfolio = () => {
               <h3>The Movie DB</h3>
               <p>A web app for looking up details on your favourite movies. External API calls, React Router use.</p>
               <div className="card-links">
-                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
+                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noopener noreferrer">
                   <BsCodeSlash />
                 </a>
-                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noreferrer">
+                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noopener noreferrer">
                   <BsBoxArrowUpRight />
                 </a>
 
@@ -53,10 +53,10 @@ const Portfolio = () => {
               <h3>The Movie DB</h3>
               <p>A web app for looking up details on your favourite movies. External API calls, React Router use.</p>
               <div className="card-links">
-                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
+                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noopener noreferrer">
                   <BsCodeSlash />
                 </a>
-                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noreferrer">
+                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noopener noreferrer">
                   <BsBoxArrowUpRight />
                 </a>
 
@@ -79,10 +79,10 @@ const Portfolio = () => {
               <h3>The Movie DB</h3>
               <p>A web app for looking up details on your favourite movies and to see who the key actors are.</p>
               <div className="card-links">
-                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noreferrer">
+                <a className="card-link" href="#" target="_blank" aria-label="Github code link button" rel="noopener noreferrer">
                   <BsCodeSlash />
                 </a>
-                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noreferrer">
+                <a className="card-link" href="https://super-react-moviedb.netlify.app/" target="_blank" aria-label="Website link button" rel="noopener noreferrer">
                   <BsBoxArrowUpRight />
                 </a>
 
